@@ -101,7 +101,8 @@ bbox_sf <- st_bbox(c(xmin = xmin_map,
 
 basemap <- get_tiles(bbox_sf, provider = "CartoDB.Positron", zoom = 12,
                      crop = TRUE,
-                     cachedir = "gis/tiles")
+                     cachedir = "gis/tiles")   # To download tiles, remove this line of code. If not set, tiles are cached in a tempdir folder.
+
 
 # ============================================================
 # 5b. MPA areas
