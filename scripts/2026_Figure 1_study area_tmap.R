@@ -18,7 +18,7 @@ tmap_mode("plot")  # static map
 # ============================================================
 # 1. Import and prepare bathymetry data
 # ============================================================
-r <- rast("gis/continental_shelf.grd")
+r <- rast("gis/continental_shelf.grd")   # too large for github - can load cropped data below.
 
 r_crop <- crop(r, ext(20, 28, -35, -33.5))
 
@@ -27,6 +27,11 @@ r_crop[r_crop < -100] <- -100
 
 bathy_df <- as.data.frame(r_crop, xy = TRUE)
 names(bathy_df) <- c("lon", "lat", "depth")
+
+# save for github
+saveRDS(bathy_df, "./gis/continental_shelf_cropped.rds")
+# import for github
+bathy_df <- readRDS("./gis/continental_shelf_cropped.rds")
 
 # Mask land
 bathy_raster <- r_crop
@@ -101,7 +106,7 @@ basemap <- get_tiles(bbox_sf, provider = "CartoDB.Positron", zoom = 12,
 # ============================================================
 # 5b. MPA areas
 # ============================================================
-mpas <- st_read("./gis/Layers/MPA/MPAs_adjustedHWM.shp")
+mpas <- st_read("./gis/MPA/MPAs_adjustedHWM.shp")
 
 mpa_names <- data.frame(
   name = c("Goukamma", "Robberg", "Tsitsikamma"),
