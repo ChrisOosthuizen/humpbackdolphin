@@ -1,0 +1,65 @@
+model {
+  
+  phi ~ dunif(0,b)
+  mu ~ dnorm(0,0.1)
+  rho[1] ~ dbeta(1/T,2-1/T) T(0.0000001,1) 
+  
+  tau[1] = -sum(tau[2:T])
+  logit(p[1]) = mu + tau[1]
+  
+  for(t in 2:T){
+    
+    tau[t] ~ dnorm(0,4) 
+
+    logit(p[t]) = mu + tau[t]
+
+    rho[t] ~ dbeta(1/T,2-t/T) T(0.0000001,1)
+
+  }
+
+  for (i in 1:M){
+    
+    y[i,1] ~ dbin(muy[i,1],1)
+    muy[i,1] = z[i,1]*p[1]    
+    
+    z[i,1] ~ dbin(rho[1],1)
+    r[i,1] = 1
+        
+    loglik_it[i,1] = logdensity.bin(y[i,1], muy[i,1], 1)
+    
+    for (t in 2:T){
+      
+      y[i,t] ~ dbin(muy[i,t],1)
+      muy[i,t] = z[i,t]*p[t]  
+
+      z[i,t] ~ dbin(muz[i,t],1)
+      muz[i,t] = phi^t_lag[t-1]*z[i,t-1] + rho[t]*r[i,t]
+      r[i,t] = r[i,(t-1)]*(1-z[i,t-1])
+      
+      loglik_it[i,t] = logdensity.bin(y[i,t], muy[i,t], 1)
+      
+    }
+    
+    loglik_i[i] = sum(loglik_it[i,]) #log-likelihood for individual i
+    
+    
+    for(year in 1:(length(year_start)-1)){
+      Nalive.y[i,year] = 1-equals(sum(z[i,year_start[year]:(year_start[year+1]-1)]),0) 
+    }
+    
+  }
+  
+  
+  for(year in 1:(length(year_start)-1)){
+    N.y[year] = sum(Nalive.y[1:M,year])
+  }
+  
+  for (i in 1:M){ # Compute Nsuper
+    
+    Nind[i] = sum(z[i,1:T])
+    Nalive[i] = 1-equals(Nind[i],0)
+    
+  }
+  
+  Nsuper = sum(Nalive[1:M])
+}
