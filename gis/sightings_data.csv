@@ -1,0 +1,99 @@
+area,day,month,year,lat,lon,max_no,min_no,best_no,calves,juveniles,behaviour
+Plettenberg,2,March,2014,-34.0188,23.42067,2,2,2,0,0,Unknown
+Knysna,26,March,2014,-34.04265,22.81603,2,2,2,0,0,Travelling and foraging
+Knysna,28,March,2014,-34.08842,22.98027,5,5,5,2,0,Foraging
+Knysna,28,March,2014,-34.06968,22.91815,5,5,5,2,0,Socialising and foraging
+Plettenberg,10,April,2014,-34.0067,23.45621,1,1,1,0,0,Unknown
+Plettenberg,11,April,2014,-34.084,23.09672,3,3,3,0,1,Milling
+Plettenberg,11,April,2014,-34.0838,23.10275,1,1,1,0,0,Unknown
+Plettenberg,11,April,2014,-34.0877,23.19028,1,1,1,0,0,Unknown
+Plettenberg,12,April,2014,-33.9899,23.55203,2,2,2,0,0,Unknown
+Plettenberg,12,April,2014,-33.9852,23.58297,1,1,1,0,0,Unknown
+Plettenberg,16,April,2014,-34.0067,23.48957,3,3,3,0,0,Milling
+Tsitsikamma,17,April,2014,-34.00228,23.75407,3,3,3,1,0,Unknown
+Knysna,24,April,2014,-34.08515,22.9521,1,1,1,0,0,Travelling
+Knysna,25,April,2014,-34.08747,22.98062,3,3,3,1,1,Travelling and foraging
+Knysna,25,April,2014,-34.06187,22.89113,5,5,5,2,1,Travelling and socialising
+Knysna,25,April,2014,-34.07695,23.0031,6,6,6,2,2,Travelling
+Plettenberg,25,May,2014,-34.0845,23.37378,10,8,9,1,1,Travelling
+Plettenberg,25,May,2014,-34.0133,23.4337,9,9,9,1,1,Unknown
+Plettenberg,26,May,2014,-34.0079,23.45919,4,4,4,0,0,Unknown
+Plettenberg,26,May,2014,-34.007,23.47843,1,1,1,0,0,Unknown
+Plettenberg,26,May,2014,-34.0212,23.4171,5,4,4,0,0,Unknown
+Plettenberg,26,May,2014,-34.1053,23.4101,2,2,2,0,0,Unknown
+Knysna,27,May,2014,-34.08567,23.062,5,5,5,0,0,Travelling
+Knysna,27,May,2014,-34.07152,22.92251,5,5,5,0,0,Unknown
+Knysna,27,May,2014,-34.08553,22.95464,3,3,3,0,0,Socialising and foraging
+Knysna,28,May,2014,-34.07812,22.99015,1,1,1,0,0,Unknown
+Knysna,11,June,2014,-34.0896,22.98135,5,4,5,0,0,Travelling and foraging
+Knysna,12,June,2014,-34.08825,23.05582,5,4,5,2,0,Travelling and foraging
+Knysna,12,June,2014,-34.07301,22.92021,2,2,2,0,0,Travelling
+Knysna,12,June,2014,-34.0869,22.97967,14,10,12,4,0,Socialising
+Tsitsikamma,28,June,2014,-33.98644,23.57964,3,3,3,0,1,Travelling and foraging
+Plettenberg,11,July,2014,-34.0108,23.44363,2,2,2,0,1,Travelling
+Plettenberg,11,July,2014,-34.0113,23.44071,4,4,4,1,0,Travelling
+Plettenberg,11,July,2014,-34.0103,23.44365,3,3,3,0,1,Travelling
+Plettenberg,11,July,2014,-34.0373,23.39359,7,5,6,1,0,Travelling
+Plettenberg,11,July,2014,-34.0903,23.37493,7,3,6,1,0,Travelling
+Plettenberg,13,July,2014,-34.0388,23.39167,3,2,2,1,0,Travelling
+Knysna,28,July,2014,-34.07688,22.99866,5,5,5,2,0,Foraging
+Knysna,29,July,2014,-34.08558,23.12739,1,1,1,0,0,Foraging
+Knysna,9,August,2014,-34.07837,22.9446,2,2,2,0,0,Travelling
+Knysna,9,August,2014,-34.05106,22.84784,3,3,3,1,0,Travelling
+Tsitsikamma,3,September,2014,-33.98445,23.63643,8,6,7,0,0,Foraging
+Tsitsikamma,3,September,2014,-33.9918,23.70255,1,1,1,1,0,Unknown
+Plettenberg,15,September,2014,-34.01842,23.42034,5,4,4,2,0,Milling
+Plettenberg,16,September,2014,-34.0066,23.46275,6,6,6,1,2,Milling
+Plettenberg,16,September,2014,-34.06498,23.37963,6,6,6,2,1,Travelling
+Knysna,6,October,2014,-34.05892,22.87997,2,2,2,0,1,Travelling and foraging
+Plettenberg,24,October,2014,-34.01528,23.42753,6,4,5,1,1,Foraging
+Plettenberg,24,October,2014,-34.04734,23.38368,5,5,5,2,1,Unknown
+Knysna,6,November,2014,-34.07592,22.99597,1,1,1,0,0,Travelling
+Knysna,9,November,2014,-34.08533,23.12671,3,3,3,0,0,Unknown
+Plettenberg,28,November,2014,-34.03991,23.39108,2,2,2,0,0,Unknown
+Tsitsikamma,29,November,2014,-34.00746,23.7683,2,2,2,0,0,Travelling
+Knysna,8,December,2014,-34.05644,22.86817,3,3,3,0,1,Travelling and foraging
+Knysna,22,January,2015,-34.0761,22.99764,15,12,12,2,0,Foraging and Milling
+Knysna,23,January,2015,-34.07651,22.99719,12,10,12,0,1,Milling
+Knysna,23,January,2015,-34.0856,22.9798,12,10,12,0,2,Milling
+Plettenberg,24,January,2015,-34.0383,23.39177,8,8,8,1,1,Foraging
+Plettenberg,24,January,2015,-34.0142,23.43448,12,10,10,2,0,Foraging
+Plettenberg,24,January,2015,-33.9923,23.53692,2,2,2,0,0,Travelling
+Plettenberg,24,January,2015,-34.004,23.50942,4,4,4,0,0,Travellng
+Plettenberg,24,January,2015,-34.03339,23.39706,6,4,5,0,1,Foraging
+Tsitsikamma,26,January,2015,-34.0251,23.90083,15,10,12,2,2,Socialising and foraging
+Tsitsikamma,26,January,2015,-33.98627,23.58058,2,2,2,0,0,Travelling
+Tsitsikamma,9,February,2015,-33.98273,23.61979,1,1,1,0,0,Foraging
+Knysna,20,February,2015,-34.08284,22.97986,8,5,6,1,0,Foraging
+Knysna,20,February,2015,-34.05202,22.84003,8,5,7,1,1,Travelling
+Knysna,20,February,2015,-34.07884,23.00601,8,5,6,1,0,Travelling
+Plettenberg,23,February,2015,-34.00549,23.47207,8,6,6,2,0,Travelling
+Plettenberg,24,February,2015,-34.00764,23.45483,2,2,2,0,0,Travelling
+Knysna,26,February,2015,-34.08294,22.97852,2,2,2,0,0,Foraging
+Plettenberg,13,March,2015,-33.99191,23.54596,4,4,4,0,0,Travelling
+Tsitsikamma,13,March,2015,-33.98238,23.64557,5,4,4,0,1,Socialising and foraging
+Knysna,18,March,2015,-34.08694,23.09034,6,5,5,0,1,Travelling
+Knysna,19,March,2015,-34.07888,22.94282,3,3,3,0,0,Travelling
+Knysna,20,March,2015,-34.08101,23.03034,5,3,4,0,1,Travelling
+Knysna,20,March,2015,-34.10423,23.28349,3,3,3,0,0,Travelling 
+Tsitsikamma,24,March,2015,-34.02046,23.84098,4,3,3,1,0,Foraging
+Tsitsikamma,25,March,2015,-34.02856,23.93723,1,1,1,0,0,Travelling
+Tsitsikamma,25,March,2015,-34.05799,24.16457,1,1,1,0,0,Travelling
+Knysna,10,April,2015,-34.0851,22.953,3,3,3,1,0,Foraging
+Knysna,10,April,2015,-34.10887,23.3597,1,1,1,0,0,Travelling
+Knysna,11,April,2015,-34.0723,22.92693,3,1,2,0,0,Travelling 
+Knysna,11,April,2015,-34.06034,22.8873,4,4,4,0,0,Resting
+Knysna,11,April,2015,-34.05041,22.84145,2,2,2,0,0,Resting
+Knysna,10,May,2015,-34.08495,22.97919,3,3,3,1,0,Foraging and Milling
+Knysna,12,May,2015,-34.08738,23.14335,8,4,6,1,0,Travelling and foraging
+Tsitsikamma,20,May,2015,-33.98334,23.65199,12,9,10,0,1,Socialising
+Knysna,7,June,2015,-34.08008,22.98551,3,3,3,1,0,Travelling
+Knysna,7,June,2015,-34.07263,22.92534,1,1,1,0,0,Travelling
+Knysna,8,June,2015,-34.05178,22.84491,2,2,2,0,0,Travelling 
+Plettenberg,10,June,2015,-34.04841,23.38436,3,2,2,0,1,Unknown
+Tsitsikamma,10,June,2015,-34.02247,23.86375,2,2,2,0,0,Travelling
+Plettenberg,12,June,2015,-34.10432,23.40585,1,1,1,0,0,Foraging
+Plettenberg,12,June,2015,-34.06016,23.38451,1,1,1,0,0,Unknown
+Tsitsikamma,12,June,2015,-34.06167,24.16314,5,3,4,1,0,Travelling
+Tsitsikamma,12,June,2015,-34.06753,24.18736,2,2,2,0,0,Travelling and foraging
+Plettenberg,18,June,2015,-34.09374,23.37754,6,5,5,0,1,Travelling
