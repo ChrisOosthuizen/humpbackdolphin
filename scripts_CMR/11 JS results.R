@@ -173,7 +173,7 @@ panel_B <- ggplot(Plet, aes(x = n, y = year,
   scale_fill_continuous(name = "Tail probability", trans = "reverse") +
   scale_y_discrete(limits = rev) +
   labs(
-    x = expression("Superpopulation size (" * hat(N) * ")"),
+    x = expression("Plettenberg Bay superpopulation size (" * hat(N) * ")"),
     y = "Year",
     colour = "External estimate",
     shape  = "External estimate"
@@ -278,7 +278,7 @@ geom_errorbar(
   scale_fill_continuous(name = "Tail probability", trans = "reverse") +
   scale_y_discrete(limits = rev) +
   labs(
-    x = expression("Superpopulation size (" * hat(N) * ")"),
+    x = expression("Plettenberg Bay superpopulation size (" * hat(N) * ")"),
     y = "Year",
     colour = "External estimate",
     shape  = "External estimate"

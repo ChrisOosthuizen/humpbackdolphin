@@ -698,7 +698,7 @@ px = ggplot(data = gdat3,
   xlab(  c("Estimate")  )  +
   scale_x_discrete(labels = c("Minimum estimate","Best estimate", "Maximum estimate"))+
   #  rremove("legend.title")+
-  scale_y_continuous(limits = c(0, 16), breaks = scales::pretty_breaks(n = 5)) + 
+  scale_y_continuous(limits = c(0, 16), breaks = scales::pretty_breaks(n = 8)) + 
 
   guides(fill = guide_legend(override.aes = list(alpha = 0.75, color="black")))
 

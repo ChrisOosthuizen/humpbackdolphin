@@ -45,7 +45,7 @@ dc1 = ggplot(data = dat,
   geom_point(aes(size = NewIDs)) +
   scale_size_area(max_size = 5, breaks = c(1, 2,5,10), name   = "New IDs") + 
   xlab("Time") +
-  ylab("Cumulative individuals") +
+  ylab("Cumulative unique individuals") +
   #  scale_x_continuous(expand = c(0, 0), limits = c(50, 200)) + 
   theme_gg() +
   font("xylab",size=14)+
@@ -67,8 +67,8 @@ dc2 = ggplot(data = dat,
   geom_point(aes(size = NewIDs)) +
   scale_size_area(max_size = 5, breaks = c(1,2,5,10), name   = "New IDs") + 
   geom_abline(intercept = 0, slope = 1, size = 0.5, linetype = "dashed") +  # 1:1 line
-  xlab("Cumulative identifications") +
-  ylab("Cumulative individuals") +
+  xlab("Cumulative photo-identifications") +
+  ylab("Cumulative unique individuals") +
   #  scale_x_continuous(expand = c(0, 0), limits = c(50, 200)) + 
   theme_gg() +
   font("xylab",size=14)+
@@ -89,10 +89,10 @@ dc = dc1 + dc2 +
 dc
 
 ## Save Plot 
-pdf("./supplement/Sup5_discovery_curve_2012.pdf",
-    useDingbats = FALSE, width = 8, height = 5)
-print(dc)
-dev.off()
+# pdf("./supplement/Sup5_discovery_curve_2012.pdf",
+#     useDingbats = FALSE, width = 8, height = 5)
+# print(dc)
+# dev.off()
 
 png(filename = "./supplement/Sup5_discovery_curve_2012.png", width = 2000, height = 1300, 
     pointsize = 8,  res = 300)

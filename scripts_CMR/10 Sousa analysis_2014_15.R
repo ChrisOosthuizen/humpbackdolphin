@@ -108,6 +108,7 @@ z <- JS_mod$chains_mat[, "Nsuper"]
 JS_hdi_vals <- HDInterval::hdi(z)
 
 JS_Nsuper_mean <- data.frame(
+  median = median(z),
   mean  = mean(z),
   lower = JS_hdi_vals[1],
   upper = JS_hdi_vals[2]
@@ -124,6 +125,7 @@ total_N$N_all = total_N$N_marked / 0.957
 JS_hdi_vals_all <- HDInterval::hdi(total_N$N_all)
 
 JS_Nsuper_all <- data.frame(
+  median = median(total_N$N_all),
   mean  = mean(total_N$N_all),
   lower = JS_hdi_vals_all[1],
   upper = JS_hdi_vals_all[2]
